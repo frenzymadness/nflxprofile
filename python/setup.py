@@ -13,7 +13,7 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     url="https://github.com/Netflix/nflxprofile",
     packages=setuptools.find_packages(),
-    install_requires=['protobuf>=4.21.1'],
+    install_requires=['protobuf>=4.21.1,<6.33.0'],
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: Apache Software License",
